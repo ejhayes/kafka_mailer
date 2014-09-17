@@ -1,4 +1,4 @@
-# kafka_mailer
+# kafka_mailer [![Build Status](https://travis-ci.org/ejhayes/kafka_mailer.svg?branch=master)](https://travis-ci.org/ejhayes/kafka_mailer) [![Gem Version](https://badge.fury.io/rb/kafka_mailer.svg)](http://badge.fury.io/rb/kafka_mailer) [![Code Climate](https://codeclimate.com/github/ejhayes/kafka_mailer/badges/gpa.svg)](https://codeclimate.com/github/ejhayes/kafka_mailer) [![Test Coverage](https://codeclimate.com/github/ejhayes/kafka_mailer/badges/coverage.svg)](https://codeclimate.com/github/ejhayes/kafka_mailer) [![Dependency Status](https://gemnasium.com/ejhayes/kafka_mailer.svg)](https://gemnasium.com/ejhayes/kafka_mailer) 
 
 Use [Apache Kafka](http://kafka.apache.org/) as a delivery_method in rails.
 
