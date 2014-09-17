@@ -1,5 +1,13 @@
-require 'simplecov'
-SimpleCov.start
+# Code coverage
+# Travis: use code climate
+# Everything else: simplecov
+if ENV['RAILS_ENV'] == 'travis'
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
+else
+  require 'simplecov'
+  SimpleCov.start
+end
 
 require 'rubygems'
 require 'bundler/setup'

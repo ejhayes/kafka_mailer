@@ -4,6 +4,8 @@ Use [Apache Kafka](http://kafka.apache.org/) as a delivery_method in rails.
 
 ## Rails Setup
 
+**IMPORTANT**: This is under development right now and is not yet ready for use in a production environment.
+
 First add the gem to your development environment and run the +bundle+ command to install it.
 
     gem "kafka_mailer"
