@@ -5,4 +5,4 @@ rvm:
   - 2.0.0
   - 2.1.0
 script:
-  - CODECLIMATE_REPO_TOKEN=00007462f169c0875debb825d2835df9ff46ce933b63ffaae16f017e205db091 bundle exec rake spec
+  - CODECLIMATE_REPO_TOKEN=2fb7362765bdd666d7251e975298e656d83b814ce4e4235948fd14c4b8035623  bundle exec rake spec
