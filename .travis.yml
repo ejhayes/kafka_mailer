@@ -2,6 +2,7 @@ language: ruby
 env:
   - RAILS_ENV=travis
 rvm:
-  - 1.9.3
   - 2.0.0
   - 2.1.0
+script:
+  - CODECLIMATE_REPO_TOKEN=00007462f169c0875debb825d2835df9ff46ce933b63ffaae16f017e205db091 bundle exec rake spec
